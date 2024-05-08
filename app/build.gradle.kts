@@ -18,7 +18,7 @@ android {
 
         externalNativeBuild {
             ndk {
-                abiFilters += listOf("armeabi-v7a", "x86_64")
+                abiFilters += listOf("armeabi-v7a")
             }
         }
         sourceSets {
